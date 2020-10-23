@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>章节标签</title>
+    <style>
+        .a {
+            color: red;
+            border: 1px solid blue;
+        }
+        h2 {
+            display: inline-block;
+        }
+        #xxx {
+            font-size: 30px;
+        }
+        p {
+            font-family: "宋体";
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1 class="a">标题</h1>
+    <header>顶部</header>
+    <main>
+    <section>
+        <h2 hidden>章节 1</h2>
+        <p contenteditable>这是第一段这是第一段这是第一段这是这是第一段第一段这是第一段这是第一段这是第一段这是第一段这是第一段这是第一段这是第一段这是第一段这是第一段这是第一段</p>
+        <section tabindex=2>
+            <h2>章节2</h2>
+            <p>这是第二段</p>
+        </section>
+    </section>
+    <aside id="xxx">
+        旁支内容
+    </aside>
+    </main>
+    <footer tabindex=1>&copy;本人声明禁止传播</footer>
+    </div>
+</body>
+</html>
